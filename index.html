@@ -12,10 +12,17 @@
 		<div id="intro" class="w3-animate-right">
 			<h1 class="w3-jumbo">Stemwijzer</h1>
 			<p class="w3-text-teal w3-xlarge">Test uw politieke voorkeur aan de hand van 30 stellingen</p>
-			<button id="start" class="w3-btn w3-text-white w3-black w3-round-large w3-xlarge w3-right">Start</button>
+			<div class="w3-right">
+				<button id="parties" class="w3-btn w3-text-white w3-black w3-round-medium w3-medium">Alle partijen</button>
+				<button id="start" class="w3-btn w3-text-white w3-black w3-round-large w3-xlarge">Start</button>
+			</div>
 		</div>
 		<div id="question-panel" class="w3-animate-right w3-hide">
-			<button id="btn_back" class="w3-right w3-btn w3-text-white w3-black w3-round-large w3-large">Vorige vraag</button>
+			<div class="w3-right">
+				<button id="btn_back" class="w3-btn w3-text-white w3-black w3-round-large w3-large">Vorige vraag</button>
+				<input id="extra_weight" class="w3-check" type="checkbox">
+				<label>Tel deze vraag keer 2</label>
+			</div>
 			<h2 id="title" class="w3-xxlarge w3-text-teal"></h2>
 			<p id="question"></p>
 			<button id="btn_pro" class="w3-btn w3-text-white w3-black w3-round-large w3-large">Eens</button>
