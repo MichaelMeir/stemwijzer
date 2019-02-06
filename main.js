@@ -24,6 +24,7 @@ var extra_weight = document.getElementById("extra_weight");
 var show_parties = 0
 
 window.onload = () => {
+	document.getElementById("intro_text").innerHTML = "Test uw politieke voorkeur aan de hand van " + subjects.length + " stellingen"
 	btn_start.onclick = start;
 
 	btn_pro.onclick = () => { next(1) };
